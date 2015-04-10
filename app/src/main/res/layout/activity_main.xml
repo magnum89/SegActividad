@@ -1,79 +1,93 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
     android:background="#ff000000">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/Fondo"/>
 
-    <TextView android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textColor="#ffffffff" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Selecciona"
+        android:text="@string/seleccion"
         android:id="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="0dp"
         android:textColor="#ffffffff"
-        android:textStyle="bold|italic"
+        android:textStyle="italic"
         android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                    />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton1"
         android:id="@+id/button01"
-        android:layout_above="@+id/button02"
-        android:layout_alignLeft="@+id/button03"
-        android:layout_alignStart="@+id/button03"
-        android:layout_marginBottom="27dp"
-        android:background="#ff0008ff"
+        android:background="#ff000000"
         android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton2"
         android:id="@+id/button02"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/button01"
-        android:layout_alignStart="@+id/button01"
-        android:background="#ff0008ff"
+        android:background="#ff000000"
         android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton3"
         android:id="@+id/button03"
-        android:layout_marginTop="27dp"
-        android:layout_below="@+id/button02"
-        android:layout_centerHorizontal="true"
-        android:background="#ff0008ff"
+        android:background="#ff000000"
         android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton4"
         android:id="@+id/button04"
-        android:layout_below="@+id/button03"
-        android:layout_alignLeft="@+id/button03"
-        android:layout_alignStart="@+id/button03"
-        android:layout_marginTop="27dp"
-        android:background="#ff0008ff"
+        android:background="#ff000000"
         android:textColor="#ffffffff" />
+
+
+
+    </LinearLayout>
 
 </RelativeLayout>
