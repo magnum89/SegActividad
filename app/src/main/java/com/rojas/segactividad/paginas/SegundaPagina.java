@@ -22,7 +22,7 @@ public class SegundaPagina extends Activity {
 
             @Override
             public void onClick(View v){
-                Toast.makeText(SegundaPagina.this, "He regresando", Toast.LENGTH_LONG).show();
+                Toast.makeText(SegundaPagina.this, "Has regresado", Toast.LENGTH_LONG).show();
                 regresar(v);
 
             }

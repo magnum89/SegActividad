@@ -22,7 +22,7 @@ public class TerceraPagina extends Activity {
 
             @Override
             public void onClick(View v){
-                Toast.makeText(TerceraPagina.this, "He regresando", Toast.LENGTH_LONG).show();
+                Toast.makeText(TerceraPagina.this, "Has regresado", Toast.LENGTH_LONG).show();
                 regresar(v);
 
             }

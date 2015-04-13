@@ -22,7 +22,7 @@ public class CuartaPagina extends Activity {
 
             @Override
             public void onClick(View v){
-                Toast.makeText(CuartaPagina.this, "He regresando", Toast.LENGTH_LONG).show();
+                Toast.makeText(CuartaPagina.this, "Has regresado", Toast.LENGTH_LONG).show();
                 regresar(v);
 
             }
