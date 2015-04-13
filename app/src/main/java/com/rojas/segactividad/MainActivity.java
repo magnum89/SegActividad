@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button01).setOnClickListener((new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(MainActivity.this, "Presione el boton 1", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Presionaste Java", Toast.LENGTH_LONG).show();
                 lanzarPaginaUno(v);
 
             }
@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button02).setOnClickListener((new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(MainActivity.this, "Presione el boton 2", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Presionaste Phyton", Toast.LENGTH_LONG).show();
                 lanzarPaginaDos(v);
 
             }
@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button03).setOnClickListener((new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(MainActivity.this, "Presione el boton 3", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Presionaste C++", Toast.LENGTH_LONG).show();
                 lanzarPaginaTres(v);
 
             }
@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button04).setOnClickListener((new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(MainActivity.this, "Presione el boton 4", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Presionaste JavaScript", Toast.LENGTH_LONG).show();
                 lanzarPaginaCuatro(v);
 
             }
